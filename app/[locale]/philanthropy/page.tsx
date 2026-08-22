@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { ShopCallout } from "@/components/ShopCallout";
 import { buildPageMetadata } from "@/lib/seo";
 import nbc5Logo from "./assets/nbc5-logo.webp";
 import nbc5LogoDark from "./assets/nbc5-logo-dark.webp";
@@ -346,6 +347,10 @@ export default async function PhilanthropyPage({ params }: Props) {
             <p>{t("acceptOther")}</p>
           </div>
         </div>
+      </section>
+
+      <section className="philanthropy-shell philanthropy-section">
+        <ShopCallout campaign="philanthropy_page" />
       </section>
 
       <section className="philanthropy-shell philanthropy-section philanthropy-section--light">
