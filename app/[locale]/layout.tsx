@@ -56,6 +56,32 @@ const organizationJsonLd = {
     "https://en.wikipedia.org/wiki/Hack_Club",
     "https://www.wikidata.org/wiki/Q98127305",
   ],
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "212 Battery St",
+    addressLocality: "Burlington",
+    addressRegion: "VT",
+    postalCode: "05401",
+    addressCountry: "US",
+  },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      email: "team@hackclub.com",
+      telephone: "+1-855-625-4225",
+      areaServed: "Worldwide",
+      availableLanguage: ["English"],
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "media relations",
+      email: "christina@hackclub.com",
+      url: "https://hackclub.com/press",
+      areaServed: "Worldwide",
+      availableLanguage: ["English"],
+    },
+  ],
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
