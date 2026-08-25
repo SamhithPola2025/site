@@ -21,8 +21,6 @@ const getCommitSha = (): string => {
 };
 
 const nextConfig: NextConfig = {
-  // Standalone output is for self-hosting (Docker). On Vercel it conflicts with
-  // Vercel's own output pipeline (missing next-server.js.nft.json), so skip it there.
   output: process.env.VERCEL ? undefined : "standalone",
   trailingSlash: false,
   productionBrowserSourceMaps: true, // source maps are great for oss :)
