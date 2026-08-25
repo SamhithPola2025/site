@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { blockBotRequest } from "@/lib/botid";
 import { isValidEmail } from "@/lib/email";
 import { apiError } from "@/lib/api-error";
 
@@ -19,9 +18,6 @@ function clientIp(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  const blocked = await blockBotRequest();
-  if (blocked) return blocked;
-
   const key = apiKey();
   if (!key) {
     return apiError({
