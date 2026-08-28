@@ -49,19 +49,7 @@ function EventCard({ program }: { program: AirtableProgram }) {
   const slackUrl = slackChannel
     ? `https://hackclub.slack.com/channels/${slackChannel.replace(/^#/, "")}`
     : null;
-  const programKey = program.name
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-  const descriptionKey = `cards.${programKey}.description`;
-  const description =
-    locale === "fr"
-      ? tp.has(descriptionKey)
-        ? tp(descriptionKey)
-        : null
-      : (s?.description ?? null);
+  const description = s?.description ?? null;
 
   const irlStart = s?.inPersonStart ?? null;
   const irlEnd = s?.inPersonEnd ?? null;

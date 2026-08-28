@@ -959,41 +959,7 @@
     "footerSlackAfter": ", donde se anuncian eventos nuevos todo el tiempo.",
     "footerEditBefore": "También puedes",
     "footerEditLink": "editar un evento aquí",
-    "footerEditAfter": ".",
-    "cards": {
-      "club-shop": {
-        "description": "¡No lleves tu club de programación solo, conviértelo en un Hack Club! Haz talleres, lanza proyectos, consigue recompensas.",
-        "requirements": "¡Solo para Hack Clubs!"
-      },
-      "macondo": {
-        "description": "Consigue hasta 1000 $ para proyectos de hardware o crea proyectos de software para ganar frutas por premios como dulces, gadgets o un viaje a un hackathon en Bogotá, Colombia, este agosto."
-      },
-      "beest": {
-        "description": "Vuela a los Países Bajos para construir esculturas mecánicas enormes y ver caminar a los strandbeests."
-      },
-      "greeble": {
-        "description": "¡Crea un patrón procedimental 2D y te lo imprimimos en un montón de cosas!"
-      },
-      "aria": {
-        "description": "¡Programa una canción de 30 segundos con herramientas de música algorítmica y consigue equipo musical increíble!"
-      },
-      "horizons": {
-        "description": "7 hackathones. 7 países. ¡Estás invitado, y es gratis!"
-      },
-      "keeb": {
-        "description": "Keeb es un YSWS en el que puedes hacer un teclado desde cero. Empieza sin nada, diseña todo, agrégale un giro opcional y constrúyelo tú."
-      },
-      "sunbeam": {
-        "description": "¡Un evento social de programación para chicas de 13 a 18 años de todo el mundo! Más de 20 eventos en más de 20 ciudades.",
-        "requirements": "Solo para chicas"
-      },
-      "stardance": {
-        "description": "El evento STEM más grande del verano: crea lo que quieras y gana premios gratis. En alianza con NASA, AMD y GitHub."
-      },
-      "wrangler": {
-        "description": "Crea una herramienta de arte. ¡Consigue materiales de arte!"
-      }
-    }
+    "footerEditAfter": "."
   },
   "Team": {
     "metaTitle": "Equipo — Hack Club",

@@ -959,41 +959,7 @@
     "footerSlackAfter": ". C’est aussi là qu’on annonce les prochains événements.",
     "footerEditBefore": "Tu peux aussi",
     "footerEditLink": "modifier un événement ici",
-    "footerEditAfter": ".",
-    "cards": {
-      "club-shop": {
-        "description": "Ne fais pas tourner ton club de code tout seul : fais-en un Hack Club ! Anime des ateliers, publie des projets et gagne des récompenses !",
-        "requirements": "Réservé aux Hack Clubs !"
-      },
-      "macondo": {
-        "description": "Obtiens jusqu’à 1 000 $ pour tes projets de matériel, ou crée des projets logiciels pour gagner des fruits à échanger contre des bonbons, des gadgets ou un voyage à un hackathon à Bogotá, en Colombie, au mois d’août."
-      },
-      "beest": {
-        "description": "Envole-toi pour les Pays-Bas, construis d’immenses sculptures mécaniques et assiste à la marche des Strandbeests."
-      },
-      "greeble": {
-        "description": "Crée un motif procédural en 2D et fais-le imprimer sur toutes sortes d’objets !"
-      },
-      "aria": {
-        "description": "Code un morceau de 30 secondes avec des outils de musique algorithmique et gagne du super matériel musical !"
-      },
-      "horizons": {
-        "description": "7 hackathons. 7 pays. Tu es invité·e — gratuitement !"
-      },
-      "keeb": {
-        "description": "Keeb est un programme où tu peux fabriquer un clavier de A à Z. Pars de rien, conçois tout, ajoute une touche personnelle si tu veux, puis construis-le toi-même !"
-      },
-      "sunbeam": {
-        "description": "Un événement de code convivial pour les filles de 13 à 18 ans du monde entier ! Plus de 20 événements dans plus de 20 villes.",
-        "requirements": "Réservé aux filles"
-      },
-      "stardance": {
-        "description": "Le plus grand événement STEM de l’été : crée ce que tu veux et gagne des prix. En partenariat avec la NASA, AMD et GitHub."
-      },
-      "wrangler": {
-        "description": "Crée un outil artistique et gagne du matériel de création !"
-      }
-    }
+    "footerEditAfter": "."
   },
   "Team": {
     "metaTitle": "Équipe — Hack Club",
