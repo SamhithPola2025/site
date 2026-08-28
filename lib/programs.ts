@@ -26,6 +26,13 @@ export function getProgramStatus(
   return !started ? "draft" : ended ? "ended" : "ongoing";
 }
 
+export function hasProgramArtwork(program: Pick<AirtableProgram, "site">): boolean {
+  const site = program.site;
+  if (!site) return false;
+  const hasBackground = site.bgType === "image" ? Boolean(site.bgImageUrl) : Boolean(site.bgColor);
+  return hasBackground && Boolean(site.logoUrl);
+}
+
 export function selectFeaturedPrograms(
   programs: AirtableProgram[],
   limit = 4,

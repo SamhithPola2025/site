@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import type { ProgramFormat, ProjectType } from "@/lib/site-programs";
 import { PROJECT_TYPE_OPTIONS, formatInPersonDate } from "@/lib/site-programs";
 import type { AirtableProgram } from "@/lib/programs";
-import { getProgramStatus, parseLocalDate } from "@/lib/programs";
+import { getProgramStatus, hasProgramArtwork, parseLocalDate } from "@/lib/programs";
 import { BtnArrowSvg } from "@/components/landing/btn-arrow";
 
 function useProjectTypeLabel() {
@@ -741,6 +741,7 @@ export default function ProgramsPage({
   }, [initialPrograms, t]);
 
   const filtered = (programs ?? []).filter((p) => {
+    if (!hasProgramArtwork(p)) return false;
     const q = search.toLowerCase();
     const matchesSearch =
       !q ||
