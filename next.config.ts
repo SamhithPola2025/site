@@ -304,8 +304,6 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "secure.gravatar.com" },
       { protocol: "https", hostname: "www.gravatar.com" },
       { protocol: "https", hostname: "ui-avatars.com" },
-      { protocol: "https", hostname: "www.fireentity.space" },
-      { protocol: "https", hostname: "user-cdn.hackclub-assets.com" }
     ],
   },
 };
